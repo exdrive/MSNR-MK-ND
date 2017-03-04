@@ -1,0 +1,48 @@
+%-----------------------------------------------------------------------------------------
+
+%			Seminarski rad u okviru kursa Metodologija strucnog i naucnog rada 
+
+%-----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{article}
+\usepackage{color}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage[english,serbian]{babel}
+\usepackage[unicode]{hyperref}
+\hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
+\newcommand\tab[1][1cm]{\hspace*{#1}}  
+\newtheorem{primer}{Primer}[section]
+
+\def\d{{\fontencoding{T1}\selectfont\dj}}
+\def\D{{\fontencoding{T1}\selectfont\DJ}}
+
+\begin{document}
+
+\title{ ... \\ \small{Seminarski rad u okviru kursa\\Metodologija stručnog i naučnog rada\\ Matematički fakultet}}
+
+\author{Nikola Dokmanović, Miloš Krsmanović\\mi15117@alas.matf.bg.ac.rs, mi15263@alas.matf.bg.ac.rs}
+\date{\today}
+\maketitle
+
+\abstract{   ...
+
+\section{Uvod}
+\label{sec:Uvod}
+
+...
+
+\section{1}
+\label{1}
+
+\subsection{1.1}
+
+\addcontentsline{toc}{section}{Literatura}
+\appendix
+	\addcontentsline{toc}{section}{Literatura}
+	\bibliographystyle{plain}
+	\bibliography{bibliografija}
+
+\end{document}
